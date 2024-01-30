@@ -1,0 +1,81 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , 'sans-serif';
+    box-sizing: border-box;    /*  to add padding or border with effect on width  */
+}
+
+body{
+    background-color: rgb(36, 34, 34);
+}
+
+.card {
+    background:linear-gradient(130deg , #361bcf , #5b548a) ;
+  max-width: 470px;
+  width: 90%;
+  text-align: center;
+  margin: 100px auto 0 ;
+  padding: 2rem;
+  color: white;
+  border-radius: 20px;
+
+
+
+
+
+}
+.card .search {
+    width: 100%;
+}
+.card .search input{
+    width: 80%;
+padding: 1rem;
+border-radius: 10px;
+border: none;
+padding-right: 2px;
+
+height: 3rem;
+}
+.card .search button{
+    width: 10%;
+    border-radius: 50%;
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    margin-left: 5%;
+    
+    
+
+}
+
+
+.card .search button:hover{
+    background-color: black;
+    color:white;
+    transition: all .4s linear ;
+}
+
+
+.weather .temperature {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.details .col{
+    display: flex;
+    
+}
+.details .col img{
+    margin-right: 1rem;
+    width: 2rem;
+}
+
